@@ -19,7 +19,7 @@ with open(file_to_load, 'r') as election_data:
     # To do: perform analytics
     file_reader = csv.reader(election_data)
 
-    # Print the header row
+    # Print the header ro
     headers = next(file_reader)
     print(headers)
 
