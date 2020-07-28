@@ -20,8 +20,9 @@ with open(file_to_load, 'r') as election_data:
 # Create a filename variable to a direct path to the file 
 file_to_save = 'analysis/election_analysis.txt'
 
-# Write data to the file
-with open(file_to_save, 'w') as out_file:
+# Open the file as a text file
+with open(file_to_save, 'w') as txt_file:
     # Write data to the file
-    out_file.write("Hello World")
-    
+    txt_file.write("Counties in the Election\n")
+    txt_file.write("------------------------\n")
+    txt_file.write("Arapahoe\nDenver\nJefferson\n")
