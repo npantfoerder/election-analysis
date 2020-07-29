@@ -31,4 +31,4 @@ The analysis of the election shows that:
 - *description of challenge*
 
 ## Challenge Summary
-- *descriptioin of your key findings*
+- *description of your key findings*
