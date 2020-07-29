@@ -32,13 +32,9 @@ The analysis of the election shows that:
 *insert images*
 
 ## Election-Audit Summary
-I propose that the election commission can use the PyPoll_Challenge.py script, with some modifications, for other elections. Currently, the program is written to analyze the data from the election_results.csv file by iterating through each row and reading the data in the second and third columns, 'County' and 'Candidate', in order to calculate and print the results. In the future, this program can be adjusted to be used with different election results by inspecting the file to ensure that the code is reading data from the correct columns.
+I propose that the election commission can use the PyPoll_Challenge.py script, with some modifications, for other elections. Currently, the program is written to analyze the data from the election_results.csv file by iterating through each row and reading the data in the second and third columns, 'County' and 'Candidate', in order to calculate and print the results. There are many ways in which this script can be modified to be used for future elections.
 
-For example, if the order of the columns were rearranged in another election results file, the script could easily be altered accordingly. Futhermore if a file contains more information, say the type of ballot or date that the vote was cast, the code could also be added to in order to calculate and print results based on the new columns.
-
-*provide business proposal to the election commission on how this script can be used, with some modifications, for any election*
-
-*give at least 2 examples of how this script can be modified to be used for other elections*
+For example, the program can be altered to iterate through the header row and determine which column to read data from. Then files with columns that are arranged in a different order will be analyzed accordingly and the programmer will no longer have to inspect the data to ensure that the code is reading the correct columns. Another possible modification is to read data from additional columns in order to calculate and print further results. This is useful for files containing more information, such as the type of ballot or the date that the vote was cast. 
 
 ### Resources
 - Data Source: election_results.csv
